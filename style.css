@@ -1,3 +1,8 @@
+:root {
+    --cor-hover: white;
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -34,6 +39,6 @@ a {
 }
 
 .menu li:hover{
-    background-color: red   ;
+    background-color: var(--cor-hover)   ;
     transition: 0.7s;
 }

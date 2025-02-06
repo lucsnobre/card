@@ -1,10 +1,10 @@
 "use strict"
 
 const categorias = [
-    {nome: 'celular', icon: 'celular.png'},
-    {nome: 'informatica', icon: 'informatica.png'},
-    {nome: 'games', icon: 'controle.png'},
-    {nome: 'moveis', icon: 'moveis.png'}
+    {nome: 'celular', icon: 'celular.png', cor: 'red'},
+    {nome: 'informatica', icon: 'informatica.png', cor: 'blue'},
+    {nome: 'games', icon: 'controle.png', cor: 'yellow'},
+    {nome: 'moveis', icon: 'moveis.png', cor: 'green'}
 ]
 
 function criarMenu (categoria){
@@ -18,6 +18,7 @@ function criarMenu (categoria){
 
     novoItem.appendChild(novaImagem)
     novoItem.appendChild(novoSpan)
+    novoItem.style = `--cor-hover: ${categoria.cor}`
 
     lista.appendChild(novoItem)
 }
