@@ -26,3 +26,14 @@ a {
     height: 37px;
 
 }
+
+.menu li{
+    display: flex;
+    gap:7px ;
+    align-items: center;
+}
+
+.menu li:hover{
+    background-color: red   ;
+    transition: 0.7s;
+}
