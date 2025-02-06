@@ -12,3 +12,17 @@ a {
     text-decoration: none;
     color:inherit;
 }
+
+.menu{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: end;
+    gap:77px;
+    padding: 8px 24px;
+}
+
+.menu img{
+    height: 37px;
+
+}
