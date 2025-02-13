@@ -1,0 +1,44 @@
+:root {
+    --cor-hover: white;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.menu{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: end;
+    gap:77px;
+    padding: 8px 24px;
+}
+
+.menu img{
+    height: 37px;
+
+}
+
+.menu li{
+    display: flex;
+    gap:7px ;
+    align-items: center;
+}
+
+.menu li:hover{
+    background-color: var(--cor-hover)   ;
+    transition: 0.7s;
+}
